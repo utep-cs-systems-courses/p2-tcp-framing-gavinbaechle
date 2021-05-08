@@ -1,7 +1,6 @@
 import socket, sys, re, os
 import framedSocket
 sys.path.append("../lib")
-import params
 import threading
 from threading import Thread
 
