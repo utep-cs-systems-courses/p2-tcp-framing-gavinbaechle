@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 class Framed_Socket:
     def __init__(self, socket):
         self.connected = socket
