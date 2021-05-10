@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import socket, sys, re
 import workerThread
 sys.path.append("../lib")
