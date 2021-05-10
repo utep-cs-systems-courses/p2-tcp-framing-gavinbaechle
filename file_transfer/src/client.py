@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import socket, sys, re, time, os
 import framedSocket
 import workerThread
