@@ -10,7 +10,8 @@ progname = "fileClient"
 try:                            # tries to get the necessary parameters
     clientFile = sys.argv[1]        
     serverHost, serverPort = re.split(":", sys.argv[2])
-    serverPort = 50001
+    serverFile = sys.argv[3]
+  
 except:                         # if it fails, prints syntax.
     print("Bad param format: '%s'. Should be $ ./fileClient Send {clientFile} {host:serverFile}\n" % sys.argv)
     sys.exit(1)
